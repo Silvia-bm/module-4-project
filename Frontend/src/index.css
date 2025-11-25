@@ -1,0 +1,27 @@
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #302C42;
+  color: white;
+  font-family: "Montserrat";
+}
+
+
+@media screen and (min-width: 420px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 560px) {
+  :root {
+    font-size: 14px;
+  }
+}
+

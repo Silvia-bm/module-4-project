@@ -1,0 +1,24 @@
+button,
+.create-button {
+  width: 160px;
+  height: 50px;
+  flex-grow: 0;
+  margin: 33.8px 4.4px 19.2px 4px;
+  padding: 6px;
+  border-radius: 40px;
+  background-image: linear-gradient(to right, #8176af -2%, #c0b7e8 98%);
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  border: none;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  gap: 24px;
+}

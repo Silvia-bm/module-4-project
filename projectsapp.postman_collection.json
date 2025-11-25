@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "66ca48b8-78ae-4fa0-bd4c-5d88ae2d5154",
+		"name": "projectsapp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50047584",
+		"_collection_link": "https://silviabm92-2231968.postman.co/workspace/Silvia's-Workspace~23717f55-9b3e-4d8b-8da2-8854057486f5/collection/50047584-66ca48b8-78ae-4fa0-bd4c-5d88ae2d5154?action=share&source=collection_link&creator=50047584"
+	},
+	"item": [
+		{
+			"name": "GET /projects",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/projects",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"projects"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /project/:id",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/project/2",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"project",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST /create-project",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/create-project",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"create-project"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
